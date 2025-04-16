@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    background-color: #8ad0bf;
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+  }
+  
+  .slider-container {
+    margin: 20px;
+  }
+  
+  input[type=range] {
+    width: 300px;
+  }
+  
+  .output-device {
+    margin-top: 40px;
+  }
+  
+  .light-bulb {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border-radius: 50%;
+    margin: auto;
+    box-shadow: 0 0 10px #888;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .light-bulb.on {
+    background-color: yellow;
+    box-shadow: 0 0 30px yellow;
+  }
+  
+  .buzzer {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+    display: none;
+  }
+  
+  .buzzer.on {
+    display: block;
+  }
+  
+  .info {
+    margin-top: 15px;
+  }
+  
